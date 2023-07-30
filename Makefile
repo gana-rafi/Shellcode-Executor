@@ -4,8 +4,8 @@ OUT_DIR		:= out
 PROG		:= shellcode_executer
 SUB_DIR	 =
 
-CFLAGS  := -z execstack 
-LDFLAGS := -z execstack
+CFLAGS  :=
+LDFLAGS := 
 CC		:= gcc 
 ECHO	= @echo "going to compile for target $@"
 
